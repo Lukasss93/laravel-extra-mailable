@@ -1,0 +1,53 @@
+{
+    "name": "lukasss93/laravel-extra-mailable",
+    "description": "Extra tools for Laravel Mailables",
+    "keywords": [
+        "laravel",
+        "mail",
+        "mailable",
+        "tools",
+        "extra"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Patera",
+            "email": "lucapatera@outlook.it",
+            "homepage": "https://www.lucapatera.it/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/mail": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0|^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukasss93\\ExtraMailable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lukasss93\\ExtraMailable\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": [
+            "@php vendor/phpunit/phpunit/phpunit --colors=always"
+        ],
+        "test-coverage": [
+            "@php vendor/phpunit/phpunit/phpunit --colors=always --bootstrap vendor/autoload.php --configuration phpunit.xml.dist --coverage-clover coverage.xml"
+        ]
+    }
+}
