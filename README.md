@@ -92,7 +92,7 @@ MyMail::create()
 
 // execute custom code after sending emails
 MyMail::create()
-    ->onBeforeSendingMails(fn() => print('This message will be printed after sending emails'))
+    ->onAfterSendingMails(fn() => print('This message will be printed after sending emails'))
     ->sendTo('foo@bar.org');
 ```
 
