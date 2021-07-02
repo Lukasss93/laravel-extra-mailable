@@ -2,7 +2,7 @@
     <img style="max-height:400px" src="https://banners.beyondco.de/Laravel%20Extra%20Mailable.png?theme=dark&packageManager=composer+require&packageName=lukasss93%2Flaravel-extra-mailable&pattern=bamboo&style=style_1&description=Extra+tools+for+Laravel+Mailables&md=1&showWatermark=0&fontSize=125px&images=mail"/>
 </p>
 
-# Laravel Larex
+# Laravel Extra Mailable
 
 [![Version](https://poser.pugx.org/lukasss93/laravel-extra-mailable/v/stable)](https://packagist.org/packages/lukasss93/laravel-extra-mailable)
 [![Downloads](https://poser.pugx.org/lukasss93/laravel-extra-mailable/downloads)](https://packagist.org/packages/lukasss93/laravel-extra-mailable)
