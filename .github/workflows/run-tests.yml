@@ -24,6 +24,8 @@ jobs:
                         laravel: 10.*
                     -   php: 8.0
                         laravel: 10.*
+                    -   php: 7.4
+                        laravel: 9.*
 
         name: Laravel ${{ matrix.laravel }} with PHP ${{ matrix.php }}
 
