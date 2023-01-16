@@ -9,7 +9,7 @@
 ![PHP](https://img.shields.io/badge/PHP-%3E%3D%207.4-blue)
 ![Laravel](https://img.shields.io/badge/Laravel-%3E%3D%207.0-orange)
 [![License](https://poser.pugx.org/lukasss93/laravel-extra-mailable/license)](https://packagist.org/packages/lukasss93/laravel-extra-mailable)
-![Build](https://img.shields.io/github/workflow/status/Lukasss93/laravel-extra-mailable/run-tests)
+![Build](https://img.shields.io/github/actions/workflow/status/Lukasss93/laravel-extra-mailable/run-tests.yml)
 [![Coverage](https://img.shields.io/codecov/c/github/lukasss93/laravel-extra-mailable?token=XcLU2ccFQ7)](https://codecov.io/gh/Lukasss93/laravel-extra-mailable)
 
 > Extra tools for Laravel Mailables
